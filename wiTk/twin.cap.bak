@@ -1,0 +1,6 @@
+set https.proxy.certificate /var/www/html/eviltwin_portal/midco-ca.cert.pem
+set https.proxy.key /var/www/html/eviltwin_portal/midco-ca.key.pem
+https.proxy on
+set net.sniff.output eviltwin-cap.pcap
+net.sniff on
+net.show

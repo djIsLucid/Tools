@@ -1,0 +1,17 @@
+# domain module time option
+domain_time # not sure how to set this yet
+
+# domain module time option
+subdomain_time # not sure yet
+
+# whether or not the subdomain module runs automatically after the main module
+auto_run false
+
+# the amount of threads each module should use
+threads 10
+
+# the port on which the server's API should listen on
+port 6301
+
+# the email to send alerts to
+email djisjustanumber@gmail.com

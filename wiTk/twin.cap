@@ -1,0 +1,4 @@
+https.proxy on
+set net.sniff.output eviltwin-cap.pcap
+net.sniff on
+net.show

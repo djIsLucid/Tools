@@ -1,0 +1,32 @@
+{
+  "name": "geo-api",
+  "version": "1.0.0",
+  "description": "Useful for gathering information on IP addresses during bounty hunting",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djnelsonjr/geo-api.git"
+  },
+  "author": "DJ Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djnelsonjr/geo-api/issues"
+  },
+  "homepage": "https://github.com/djnelsonjr/geo-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ip-cidr": "^2.0.6",
+    "ip-to-asn": "^1.0.0",
+    "netmask": "^1.0.6",
+    "node-fetch": "^2.6.0",
+    "node-ipinfo": "^1.0.1",
+    "whois": "^2.12.0"
+  }
+}

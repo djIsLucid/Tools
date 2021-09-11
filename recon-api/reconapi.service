@@ -1,0 +1,10 @@
+[Unit]
+Description=Recon Api
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /home/dj/Tools/recon-api/server.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
